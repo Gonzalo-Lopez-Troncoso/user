@@ -49,5 +49,5 @@ A continuación se listan los endpoints para acceder
 
 | Api Rest | Method | Request | Response |
 | ------ | ------ |------ | ------ |
-| /user/create | POST| {"name": "prueba","email": "prueba@prueba.cl","password": "pass1234","phones": {"ok": true,"errNum": 0,"errCode": "Err000","errDesc": "OK","errMsg": "","data": {"id": "88e1e957-01af-4d39-a3fd-d4b0ffced603","created": "28-04-2023 08:53:04","modified": "28-04-2023 08:53:04","lastLogin": "28-04-2023 08:53:04","active": true}}
+| /user/create | POST| {"name": "prueba","email": "prueba@prueba.cl","password": "pass1234","phones": [{"number": "1234567","citycode": "1","countrycode": "57"},{"number": "12345679","citycode": "3","countrycode": "56"},{"number": "12345680","citycode": "4","countrycode": "57"}]} |{"ok": true,"errNum": 0,"errCode": "Err000","errDesc": "OK","errMsg": "","data": {"id": "88e1e957-01af-4d39-a3fd-d4b0ffced603","created": "28-04-2023 08:53:04","modified": "28-04-2023 08:53:04","lastLogin": "28-04-2023 08:53:04","active": true}|
 | user/{id}} | POST | none |{"ok": true,"errNum": 0,"errCode": "Err000","errDesc": "OK","errMsg": "","data": {"id": "88e1e957-01af-4d39-a3fd-d4b0ffced603","created": "28-04-2023 08:53:04","modified": "28-04-2023 08:53:04","lastLogin": "28-04-2023 08:53:04","active": true}}
