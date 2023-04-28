@@ -46,4 +46,4 @@ A continuación se listan los endpoints para acceder
 * **Microservicios API información siniestro**
     * HOST LOCAL:
     ````
-    http://localhost:8080/swagger-ui/index.html#
+    http://localhost:8080/swagger-ui/index.html## user
