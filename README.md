@@ -13,7 +13,7 @@ Para poder compilar y ejecutar la aplicación necesitas lo siguiente:
 
 ### Ejecutar proyecto local
 
-Existen diversas maneras de ejecutar una aplicación Spring boot desde tu máquina local. Una forma es ejecutando la clase principal desde tu IDE: `cl.consorcio.seguros.Application`
+Existen diversas maneras de ejecutar una aplicación Spring boot desde tu máquina local. Una forma es ejecutando la clase principal desde tu IDE:
 
 Por otro lado, puedes utilizar [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) para iniciar el proyecto con el siguiente comando:
 
@@ -47,7 +47,7 @@ A continuación se listan los endpoints para acceder
     ````
     http://localhost:8080/swagger-ui/index.html## user
 
-| Api Rest | Method | Request | Response |
-| ------ | ------ |------ | ------ |
-| /user/create | POST| {"name": "prueba","email": "prueba@prueba.cl","password": "pass1234","phones": [{"number": "1234567","citycode": "1","countrycode": "57"},{"number": "12345679","citycode": "3","countrycode": "56"},{"number": "12345680","citycode": "4","countrycode": "57"}]} |{"ok": true,"errNum": 0,"errCode": "Err000","errDesc": "OK","errMsg": "","data": {"id": "88e1e957-01af-4d39-a3fd-d4b0ffced603","created": "28-04-2023 08:53:04","modified": "28-04-2023 08:53:04","lastLogin": "28-04-2023 08:53:04","active": true}|
-| user/{id}} | POST | none |{"ok": true,"errNum": 0,"errCode": "Err000","errDesc": "OK","errMsg": "","data": {"id": "88e1e957-01af-4d39-a3fd-d4b0ffced603","created": "28-04-2023 08:53:04","modified": "28-04-2023 08:53:04","lastLogin": "28-04-2023 08:53:04","active": true}}
+| Api Rest     | Method | Request                                                                                                                                                                                                                                                           | Response                                                                                                                                                                                                                                              |
+|--------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| /user/create | POST   | {"name": "prueba","email": "prueba@prueba.cl","password": "pass1234","phones": [{"number": "1234567","citycode": "1","countrycode": "57"},{"number": "12345679","citycode": "3","countrycode": "56"},{"number": "12345680","citycode": "4","countrycode": "57"}]} | {"ok": true,"errNum": 0,"errCode": "Err000","errDesc": "OK","errMsg": "","data": {"id": "88e1e957-01af-4d39-a3fd-d4b0ffced603","created": "28-04-2023 08:53:04","modified": "28-04-2023 08:53:04","lastLogin": "28-04-2023 08:53:04","active": true}  |
+| user/{id}}   | POST   | none                                                                                                                                                                                                                                                              | {"ok": true,"errNum": 0,"errCode": "Err000","errDesc": "OK","errMsg": "","data": {"id": "88e1e957-01af-4d39-a3fd-d4b0ffced603","created": "28-04-2023 08:53:04","modified": "28-04-2023 08:53:04","lastLogin": "28-04-2023 08:53:04","active": true}} |
